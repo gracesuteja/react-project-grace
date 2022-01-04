@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="312.787" height="63.994" viewBox="0 0 958 196">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        font-size: 125px;
+        font-family: Arial;
+      }
+
+      .cls-1 {
+        filter: url(#filter);
+        fill: #010101;
+      }
+
+      .cls-2 {
+        opacity: 0.99;
+        filter: url(#filter-2);
+        fill: #3a685e;
+      }
+    </style>
+    <filter id="filter" x="120" y="36" width="350" height="124" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dx="8.29" dy="5.592" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="3.873"/>
+      <feFlood result="flood" flood-opacity="0.7"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+    <filter id="filter-2" x="455" y="34" width="416" height="150" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dx="8.29" dy="5.592" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="3.873"/>
+      <feFlood result="flood" flood-opacity="0.7"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <text id="React" class="cls-1" x="118.716" y="136">React</text>
+  <text id="Coding" class="cls-2" x="457.365" y="135">Coding</text>
+</svg>
